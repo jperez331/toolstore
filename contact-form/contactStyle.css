@@ -41,31 +41,21 @@
 	color: var(--white);
 	transition: 800ms;
 }
-/* ------------------------------Here starts the main----------------- */
-main {
+/*---------------------here starts the form main-----------------------*/
+#main {
 	background-color: var(--light);
-	height: 80vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	height: 150vh;
 }
-/* ------------------------------Here starts the footer--------------- */
-footer {
+#main-form {
 	background-color: var(--medium);
-	height: 10vh;
-	width: 100vw;
+	height: 130vh;
+	width: 60vw;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px var(--dark);
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-#div-padre {
-	width: 70vw;
-	display: flex;
-	height: 10vh;
-	justify-content: space-between;
-	align-items: center;
-}
-.ftr-itm {
-	display: flex;
-	gap: 20px;
 }
